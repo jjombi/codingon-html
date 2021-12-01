@@ -1,0 +1,125 @@
+<html>
+ <head>
+  <title>css 실습</title>
+ </head>
+  <meta charset="utf-8"/>
+ <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+ <style>
+  .제목 {
+   color:green;
+   font-size:2em;
+   text-align:center;
+  }
+    .holyday {
+      color: red;
+    }
+  .sat {
+   color: blue;
+  }
+  </style>
+ 
+  <script type="text/javascript">
+   function holiday(){
+       alert('신나는 휴일! 집에서 쉬기');
+      }
+   </script>
+ 
+ <body>
+  <div class="제목">
+   2019년 6월
+  </div>
+  <br>
+  <table  width= "100%" border=0 cellspacing=0 cellpadding=15 style="text-align:center;">
+ 
+   <tr>
+ 
+    <td class="holyday">
+    <span onclick="holiday();">
+     日
+    </span>
+    </td>
+    <td>月</td>
+    <td>火</td>
+    <td>水</td>
+    <td>木</td>
+    <td>金</td>
+    <td class="sat">土</td>
+   </tr>
+ 
+   <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td class="sat">1</td>
+   </tr>
+ 
+   <tr>
+    <td class="holyday">2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+    <td class="holyday">
+     <span onclick="holiday();">
+      6
+     </span>
+    </td>
+    <td>7</td>
+    <td class="sat">8</td>
+   </tr>
+ 
+   <tr>
+    <td class="holyday">
+     <span onclick="holiday();">
+      9
+     </span>
+    </td>
+    <td>10</td>
+    <td>11</td>
+    <td>12</td>
+    <td>13</td>
+    <td>14</td>
+    <td class="sat">15</td>
+   </tr>
+ 
+   <tr>
+    <td class="holyday">
+     <span onclick="holiday();">
+      16
+     </span>
+    </td>
+    <td>17</td>
+    <td>18</td>
+    <td>19</td>
+    <td>20</td>
+    <td>21</td>
+    <td class="sat">22</td>
+   </tr>
+ 
+   <tr>
+    <td class="holyday">
+     <span onclick="holiday();">
+      23
+     </span>
+    </td>
+    <td>24</td>
+    <td>25</td>
+    <td>26</td>
+    <td>27</td>
+    <td>28</td>
+    <td class="sat">29</td>
+   </tr>
+ 
+   <tr>
+    <td class="holyday">
+     <span onclick="holiday();">
+      30
+     </span>
+    </td>
+   </tr>
+ 
+  </table>
+ </body>
+</html>
