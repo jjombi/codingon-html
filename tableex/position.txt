@@ -1,3 +1,5 @@
 position
 속성
 static,relative,absolute,fixed
+fixed를속성값으로정해두면,이재건님이원하는위치에고정을해둘수있어요.
+스크롤을움직이더라도위치에서움직이지않는답니다!
