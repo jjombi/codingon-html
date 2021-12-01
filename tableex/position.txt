@@ -3,3 +3,11 @@ position
 static,relative,absolute,fixed
 fixed를속성값으로정해두면,이재건님이원하는위치에고정을해둘수있어요.
 스크롤을움직이더라도위치에서움직이지않는답니다!
+첫째,z-index는position속성이relative이거나absolute여야동작해요.
+만약position속성이없거나static(기본값)일경우에는이태그들이먼저쌓이고,
+그위에position속성이있는태그들이쌓이게됩니다.
+둘째,z-index의기본값은auto로설정되어있고,
+정수로설정이가능합니다.양수이거나음수여도괜찮다는뜻이겠죠!
+z-index는같은선상에있는태그의값부터확인하지만,
+부모태그의z-index가더우선이기때문에
+ 아무리자식태그의z-index가더크더라도부모태그의값을우선시합니다.
