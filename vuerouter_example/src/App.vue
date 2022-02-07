@@ -6,6 +6,9 @@
       <Footer/>
     </section>
   </div>
+  <div>
+    <router-view/>
+  </div>
 </template>
 
 <script>
@@ -21,6 +24,8 @@ export default {
     Footer
   }
 };
+
+
 </script>
 
 <style>
